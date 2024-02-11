@@ -1,0 +1,108 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0;
+    z-index: 1000;
+    /* Assicura che la navbar sia sopra gli altri elementi */
+}
+
+.jumbo-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, );
+    background-position-y: center;
+    background-position-x: center;
+    width: 100vw;
+    position: relative;
+}
+
+.shade-container img {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    height: 20%;
+}
+
+
+.banner-1 {
+    background-image: url(../img/image\ 7.png);
+}
+
+.banner-2 {
+    background-image: url(../img/image\ 8.png);
+}
+
+.banner-3 {
+    background-image: url(../img/image\ 9.png);
+}
+
+.banner-1,
+.banner-2,
+.banner-3 {
+    background-size: cover;
+    max-width: 24%;
+}
+
+.banner-text {
+    font-size: .8rem;
+    padding-top: 10rem;
+}
+
+.office-container {
+    padding: 7rem;
+    background-color: #F9F9F9;
+}
+
+.office-description {
+    padding: 3rem;
+}
+
+.company-values-banners {
+    padding-left: 14rem;
+    padding-right: 14rem;
+    gap: 1rem;
+}
+
+.btn.btn-default {
+    background-color: #3C54E5;
+    color: #fff;
+    font-weight: 200;
+    margin: 3rem;
+}
+
+.owl-carousel {
+    position: absolute;
+    width: 100vw;
+}
+
+.overlay-image img {
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    align-items: flex-end;
+}
+
+.our-brands-container {
+    background-color: #F9F9F9;
+    padding-top: 40rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+
+
+
+/* @media only screen and (max-width: 800px) {
+    .company-windows-container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .banner-1, .banner-2, .banner-3 {
+        
+        background-size: cover;
+        flex-shrink: 0;
+    }
+} */
