@@ -1,3 +1,5 @@
+// Owl Carousel functions
+
 $(document).ready(function () {
     $(".owl-carousel").owlCarousel(
         {
@@ -24,6 +26,8 @@ $(document).ready(function () {
     })
 });
 
+// date & time buttons functions
+
 document.getElementById("clickButton").addEventListener("click", function() {
     let currentDate = new Date();
     let dateString = currentDate.toLocaleTimeString() + " on " + currentDate.toLocaleDateString();
@@ -35,3 +39,12 @@ document.getElementById("clickButton2").addEventListener("click", function() {
     let dateString = currentDate.toLocaleTimeString() + " on " + currentDate.toLocaleDateString();
     alert("When I click the pop-up at " + dateString);
 });
+
+// side elements function
+
+function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  } 
